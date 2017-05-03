@@ -56,11 +56,17 @@ data = [go.Bar(x=languages[0], y=languages[1])]
 figure = go.Figure(data=data, layout=go.Layout(title="Top Languages"))
 py.plot(figure)
 
+# Most popular languages
+timeline.get_language_totals().most_common(15)
+
 # Total number of commits
-sum(timeline.get_language_totals().values())
+total = 0
+for months in commits.commits.values():
+    for month in months.values():
+        total += month["commits"]
 
 # Largest language pairs
-language_pairs.most_common(5)
+language_pairs.most_common(10)
 
 # Language pairs distribution
 data = [list(language_pairs.values())]
