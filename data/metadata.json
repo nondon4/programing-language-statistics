@@ -1,0 +1,19 @@
+{
+  "dc:Title": "Programing Language Usages and Discussion Frequency",
+  "dc:Creator": "Brandon Ratcliff (ratc8795@vandals.uidaho.edu)",
+  "dc:Subject": "Computer Science",
+  "dc:Description": "A data set containing the amount of programing languages used in every Github repository, and the number of commits and committers to each repository per month.",
+  "dc:Contributor": [
+    "GitHub"
+  ],
+  "dc:Date": "2017-05-03",
+  "dc:Format": "application/json",
+  "dc:Type": "Dataset",
+  "dc:Identifier": "https://github.com/nondon4/programing-language-statistics",
+  "dc:Source": [
+    "https://cloud.google.com/bigquery/public-data/github"
+  ],
+  "dc:Language": "en-US",
+  "dc:Coverage": "2008-01-01 to 2017-03-01",
+  "dc:Rights": "https://help.github.com/articles/github-terms-of-service/"
+}
